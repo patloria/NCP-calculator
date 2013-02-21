@@ -1,6 +1,6 @@
 NCP calculator
 ==================
-The NCP calculator returns an author's average citations per paper (CPP) and their normalized citations per paper (NCP). Calcualtions are based on citations in the evaluation year to papers published in the previous 3 years. Citations data is derived using Scopus APIs.
+The NCP calculator returns an author's average citations per paper (CPP) and their normalized citations per paper (NCP). Calcualtions are based on citations in the evaluation year to papers published in the previous 3 years. Citation data is derived using Scopus APIs.
 
 Definition of normalized citations
 ==================

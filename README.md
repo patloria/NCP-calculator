@@ -2,9 +2,9 @@ NCP calculator
 ==================
 The NCP calculator returns an author's average citations per paper (CPP) and their normalized citations per paper (NCP). Calcualtions are based on citations in the evaluation year to papers published in the previous 3 years. Citation data is derived using Scopus APIs.
 
-Designers
+Developers
 ==================
-- [Pat Loria] (mailto:pat.loria@usq.edu.au) ([@pat_loria] (https://twitter.com/pat_loria)) (developer)
+- [Pat Loria] (mailto:pat.loria@usq.edu.au) ([@pat_loria] (https://twitter.com/pat_loria)) (creator)
 - [Tim McCallum] (mailto:timothy.mccallum@usq.edu.au) ([facebook] (https://www.facebook.com/mistermac2008)) (programmer)
 - [Pawel Pohorski] (mailto:Pawel.Pohorski@usq.edu.au) (programmer)
 

@@ -31,7 +31,7 @@ Known bugs
 - The calculatr currently crashes for journlas (such as proceedings) with more than 5,000 publications per annum
 - There is currently no data output functionality (best current workaround is to copy and paste tabular output into Excel)
 
-Instructions for end user
+Instructions for end users
 ==================
 - Enter an author's Scopus ID and in the Author ID field
 - Enter a year in the Eval Year field

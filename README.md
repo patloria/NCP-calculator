@@ -14,9 +14,9 @@ Based on the Scopus SNIP indicator, author citations are normalized using the re
 
 Applications for using NCP
 ==================
-- Compare relative citation impact of authors across research fields with different rates of expected citations (citations in fields with low citation rates are given a higher weighting; citations in fields with high citation rates are given a lower weighting)
+- Compares relative citation impact of authors across research fields with different rates of expected citations (citations in fields with low citation rates are given a higher weighting; citations in fields with high citation rates are given a lower weighting)
 - Provides a more comparative impact metric for research evaluation exercises
-- Compensates for database variations in subject and format coverage, as well as in subject citation cultures
+- Compensates for database variations in subject and format coverage
 
 System and code requirements
 ==================

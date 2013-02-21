@@ -37,3 +37,8 @@ Instructions for end users
 - Enter a year in the Eval Year field
 - Click on Calculate (go and have a cup of coffee)
 - When calculation is complete, additional authors or years can be added to the output table during a current session (data is currently lost if you navigate away from the page)
+
+External links
+==================
+- Information on registering for a [Scopus API] (http://searchapi.scopus.com/home.url)
+- Further information on the [Scopus SNIP] (http://www.journalmetrics.com/snip.php) indicator

@@ -23,3 +23,11 @@ Known bugs
 ==================
 - Calculations may take a long time (average is 30 mins per author per year) as an API request needs to be made for 25 journal publications at a time (for the calculation of the journal's CPP)
 - The calculatr currently crashes for journlas (such as proceedings) with more than 5,000 publications per annum
+- There is currently no data output functionality (best current workaround is to copy and paste tabular output into Excel)
+
+Instructions for end user
+==================
+- Enter an author's Scopus ID and in the Author ID field
+- Enter a year in the Eval Year field
+- Click on Calculate (go and have a cup of coffee)
+- When calculation is complete, additional authors or years can be added to the output table during a current session (data is currently lost if you navigate away from the page)

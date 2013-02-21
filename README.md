@@ -4,7 +4,7 @@ The NCP calculator returns an author's average citations per paper (CPP) and the
 
 Designers
 ==================
-- [Pat Loria] (mailto:pat.loria@usq.edu.au) ([@pat_loria] (https://twitter.com/pat_loria)) (NCP creator)
+- [Pat Loria] (mailto:pat.loria@usq.edu.au) ([@pat_loria] (https://twitter.com/pat_loria)) (designer)
 - [Tim McCallum] (mailto:timothy.mccallum@usq.edu.au) (programmer)
 - [Pawel Pohorski] (mailto:Pawel.Pohorski@usq.edu.au) (programmer)
 

@@ -10,7 +10,7 @@ Developers
 
 Definition of normalized citations
 ==================
-Based on the Scopus SNIP indicator, author citations are normalized using the relative database citations potential (RDCP) of the journals in which an author's papers are published. Whereas Scopus SNIP is defined as a journal's CPP divided by that journal's RDCP, NCP is calculated as the author's CPP divided by the average RDCP of the author's journal outlets. As there is no Scopus RDCP API, the RDCP is reverse-calculated by dividing a journal's CPP by its SNIP.
+Based on the Scopus SNIP indicator, author citations are normalized using the relative database citation potential (RDCP) of the journals in which an author's papers are published. Whereas Scopus SNIP is defined as a journal's CPP divided by that journal's RDCP, NCP is calculated as the author's CPP divided by the average RDCP of the author's journal outlets. As there is no Scopus RDCP API, the RDCP is reverse-calculated by dividing a journal's CPP by its SNIP.
 
 Applications for using NCP
 ==================

@@ -20,9 +20,9 @@ Applications for using NCP
 
 System and code requirements
 ==================
-- Add system requirements here...
+- Any Linux operating system with [NodeJs] (http://nodejs.org/) installed
 - Your institution must have a current Scopus subscription
-- The USQ Scopus API key must be replaced with your institiution's API key
+- The USQ Scopus API key must be replaced with your institiution's [API key] (http://searchapi.scopus.com/home.url)
 - The USQ ezyproxy URL must be replaced with your institutuions ezyproxy URL or equivalent
 
 Known bugs

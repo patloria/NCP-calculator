@@ -1,6 +1,6 @@
 NCP calculator
 ==================
-The NCP calculator returns an author's average citations per paper (CPP) and their normalized citations per paper (NCP). Calcualtions are based on citations in the evaluation year to papers published in the previous 3 years. Citation data is derived using Scopus APIs.
+The NCP calculator returns an author's average citations per paper (CPP) and their normalized citations per paper (NCP). Calculations are based on citations in the evaluation year to papers published in the previous 3 years. Citation data is derived using Scopus APIs.
 
 Developers
 ==================
@@ -22,13 +22,13 @@ System and code requirements
 ==================
 - Any Linux operating system with [NodeJs] (http://nodejs.org/) installed
 - Your institution must have a current Scopus subscription
-- The USQ Scopus API key must be replaced with your institiution's [API key] (http://searchapi.scopus.com/home.url)
-- The USQ ezyproxy URL must be replaced with your institutuions ezyproxy URL or equivalent
+- The USQ Scopus API key must be replaced with your institution's [API key] (http://searchapi.scopus.com/home.url)
+- The USQ ezyproxy URL must be replaced with your institution's ezyproxy URL or equivalent
 
 Known bugs
 ==================
 - Calculations may take a long time (average is 30 mins per author per year) as an API request needs to be made for 25 journal publications at a time (for the calculation of the journal's CPP)
-- The calculatr currently crashes for journlas (such as proceedings) with more than 5,000 publications per annum
+- The calculator currently crashes for journals (such as proceedings) with more than 5,000 publications per annum
 - There is currently no data output functionality (best current workaround is to copy and paste tabular output into Excel)
 
 Instructions for end users

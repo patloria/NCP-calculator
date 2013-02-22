@@ -1,0 +1,13 @@
+Set Up 
+
+- In client/js/scopusSearch you have to add your Scopus API Key, Look for "Enter Your API KEY here".
+
+- In server/js/server.js you have to add your Scopus API Key, Look for "Enter Your API KEY here".
+
+Starting server
+
+You need Nodejs installed on a linux machine.
+
+go to server/js in a console and type "node server.js
+
+The client can be deployed on any apache server or run locally

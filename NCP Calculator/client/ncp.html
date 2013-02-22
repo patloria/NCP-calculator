@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>NCP Calculator</title>
+
+        <link REL="stylesheet" TYPE="text/css" href="http://searchapi.scopus.com/stylesheets/css_sciverse_list_hilight.css" />
+        <script type="text/javascript" src="http://api.elsevier.com/javascript/scopussearch.jsp"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript" src="./js/highcharts/highcharts.js"></script>
+        <script type="text/javascript" src="./js/highcharts/modules/exporting.js"></script>
+        <script type="text/javascript" src="./js/graph.js"></script>
+        <script type="text/javascript" src="./js/watch.min.js"></script>
+        <script type="text/javascript" src="./js/scopussearch.js"></script>
+
+        <form name="sciverseForm" onsubmit="return false">
+            <table border="0">
+                <tr>
+                    <td>Author-ID</td>
+                    <td>Eval-Year</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="searchString" value="7004019463" />
+                    </td>
+                    <td><select id="evalYear">
+                            <option value="2011">2011</option>
+                            <option value="2010">2010</option>
+                            <option value="2009">2009</option>
+                            <option value="2008">2008</option>
+                            <option value="2007">2007</option>
+                            <option value="2006">2006</option>
+                            <option value="2005">2005</option>
+                            <option value="2004">2004</option>
+                            <option value="2003">2003</option>
+                            <option value="2002">2002</option>
+                            <option value="2001">2001</option>
+                            <option value="2000">2000</option>
+                            <option value="1999">1999</option>
+                        </select></td>
+                    <td>
+                        <button onClick="runSearch()" name="searchButton" />CALCULATE NCP
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+        <!--form name="scapiForm" onsubmit="return false">
+            <input type="text" name="searchString" />
+            <button onClick="runSearch2(searchString.value)" name="searchButton" />
+            SEARCH
+        </button>
+        </form-->
+        </br>
+        <table border="1" id="ncpTable">
+            <tr>
+                <td>Author ID</td>
+                <td>Author Name</td>
+                <td>Author CPP</td>
+                <td>Author NCP</td>
+                <td>Eval Year</td>
+            </tr>
+        </table>
+
+        <div id="container"
+             style="min-width: 400px; height: 400px; margin: 0 auto"></div>
+        <!-- div id="sciverse"></div-->
+        <div id="sciverse"
+             style="display: block; visibility: hidden; height: 0; line-height: 0; overflow: hidden;"></div>
+
+        <!--button onclick="xss_ajax(url);">Get Data</button-->
+
+    </body>
+</html>
